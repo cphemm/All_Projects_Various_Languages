@@ -1,0 +1,10 @@
+//Reverse a string in JavaScript:
+
+function reverseString(str) {
+  var newArray = str.split("");  //turn string into an array
+  var newString = newArray.reverse(); //reverse the string
+  var revString = newString.join(“”); //join the string to put it back together
+  return revString;
+}
+
+reverseString("hello");
